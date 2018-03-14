@@ -20,7 +20,7 @@
                         <li><a href="#">Reset my password</a></li>
                         <li><a href="#">Apply for jobs</a></li>
                         <li><a href="#">Contact employer</a></li>
-                        <li><a href="#">Upgrade my account</a></li>
+                        <li><a href="inbox.php">Upgrade my account</a></li>
                       </ul>
                     </div>
                     <?php
@@ -31,7 +31,7 @@
                                 <h4>QUICK LINKS</h4>
                                 <li><a href="jobseeker-dashboard.php">Dashboard</a></li>
                                 <li><a href="profile.php">Profile</a></li>
-                                <li><a href="#">My Application</a></li>
+                                <li><a href="myapplication.php">My Application</a></li>
                                 <li><a href="accountsetting.php">Account Settings</a></li>
                                 <li><a href="logout.php">Log Out</a></li>
                             </ul>
@@ -70,7 +70,7 @@
               <hr id="divider">
               <div class="row">
                   <div class="col-md-12">
-                      <h5 class="copyright text-center">&copy; 2016 copyright reserved. SmashJob.ng </h5>
+                      <h5 class="copyright text-center">&copy; 2018 copyright reserved. SmashJob.ng </h5>
                   </div>
               </div>
       </footer>

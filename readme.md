@@ -1,16 +1,13 @@
-# SMASHJOB
-<hr>
+## SMASHJOB
 
 Smashjob is a simple web application built using PHP. It is an online job recruiting website that connects employers and job seekers.
 
 
-# REQUIREMENTS
-<hr>
+## REQUIREMENTS
 
 Server to process PHP codes - WAMP, LAMP etc.
 
-# INSTALLATION
-<hr>
+## INSTALLATION
 
 To install this project on your local machine, simply
 
