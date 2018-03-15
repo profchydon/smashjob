@@ -610,7 +610,7 @@
                       <label id="input-label" for="upload-profile-pix">Change Profile Image</label>
                       <span id="label_span"><?=$upload_error;?></span>
                       <input type="file" id="upload-profile-pix" name="profile-image"> <br>
-                      <button type="submit" class="btn btn-primary" id="continue-upload" name="continue-upload">Upload</button>
+                      <button type="submit" class="btn btn-primary" id="continue-upload" name="continue-upload">Change</button>
 
                 <?php
                     }else { ?>
@@ -644,7 +644,7 @@
                 <?php
                     }
                  ?>
-                 <!-- <a href="#"><?=$user_data['cv'];?></a> -->
+
               </form>
           </div>
 

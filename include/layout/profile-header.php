@@ -19,12 +19,32 @@
                 <h6>http://www.smashjob.ng/<?=$user_data['username'];?></h6>
             </div>
 
-            <div class="dashboard-details col-xs-6 col-sm-6 col-md-8">
+            <div class="dashboard-details col-xs-6 col-sm-6 col-md-3">
                 <h3><?php echo strtoupper($user_data['last_name'] . " " . $user_data['first_name']); ?></h3>
                 <label id="email-label" for="">Email:</label><br>
                 <h6 class="info"><?php echo strtolower($user_data['email']); ?><br></h6>
                 <label id="phone-label" for="">Phone:</label><br>
                 <h6 class="info"><?php echo $user_data['mobile']; ?></h6><br>
+            </div>
+
+            <div class="dashboard-details col-xs-hidden col-sm-hidden col-md-3">
+
+                <label id="email-label" for="">Sex:</label><br>
+                <h6 class="info"><?php echo strtolower($user_data['sex']); ?><br></h6>
+                <label id="phone-label" for="">D.O.B:</label><br>
+                <h6 class="info"><?php echo $user_data['age']; ?><br></h6>
+                <label id="phone-label" for="">Specialization:</label><br>
+                <h6 class="info"><?php echo $user_data['specialization']; ?></h6><br>
+            </div>
+
+            <div class="dashboard-details col-xs-hidden col-sm-hidden col-md-3">
+
+                <label id="email-label" for="">Address:</label><br>
+                <h6 class="info"><?php echo strtolower($user_data['address']); ?><br></h6>
+                <label id="phone-label" for="">State:</label><br>
+                <h6 class="info"><?php echo $user_data['state_of_origin']; ?><br></h6>
+                <label id="phone-label" for="">Specialization:</label><br>
+                <h6 class="info"><?php echo $user_data['specialization']; ?></h6><br>
             </div>
 
         </div>
