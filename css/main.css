@@ -293,6 +293,10 @@ p.emailerror {
   padding: 30px;
 }
 
+.col-xs-12.col-sm-12.my-application {
+    margin: 10px;
+}
+
 .bold {
   background-color: #2d3339;
   color: #ffffff;
