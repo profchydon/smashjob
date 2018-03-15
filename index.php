@@ -135,7 +135,7 @@
 
         <div id="upload-cv" class="col-md-12 upload-cv">
 
-            <h3 class="midtext text-center">Get the job in the bag anywhere in Nigeria.</h3>
+            <h3 class="midtext text-center">Get the job in the bag anywhere in the world.</h3>
 
             <div class="img-text text-center">
 

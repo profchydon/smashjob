@@ -34,24 +34,29 @@
 <div class="container">
   <!-- row -->
     <div class="row">
-        <div class="col-md-2"></div>
-        <div class="account-setting col-md-8">
+        <div class="col-md-3"></div>
+        <div class="account-setting col-md-6">
             <h3 class="account-setting-header text-center">CHANGE PASSWORD</h3>
             <div class="row">
               <form class="" action="" method="post" novalidate="">
-                  <div class="account-setting-details col-md-4 form-group">
+
+                  <div class="account-setting-details col-md-12 form-group">
                       <label for=""><b>Enter old password</b></label>
                       <input type="password" name="old-password" value="" class="form-control">
                   </div>
-                  <div class="account-setting-details col-md-4 form-group">
+
+                  <div class="account-setting-details col-md-12 form-group">
                       <label for=""><b>Enter new password</b></label>
                       <input type="password" name="new-password" value="" class="form-control">
                   </div>
-                  <div class="account-setting-details col-md-4 form-group">
+
+                  <div class="account-setting-details col-md-12 form-group">
                       <label for=""><b>Confirm new password</b></label>
                       <input type="password" name="confirm-new-password" value="" class="form-control">
                   </div>
+
                   <button type="submit" name="submit" class="btn btn-primary pull-right">Change Password</button>
+
               </form>
             </div>
         </div>
